@@ -87,3 +87,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /**************************************************************/
+
+// Menú responsive
+
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.nav__list');
+
+console.log(navbar);
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}

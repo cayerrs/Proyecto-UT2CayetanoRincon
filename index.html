@@ -22,9 +22,9 @@
 
                 <a href="./" class="nav__logo-link"">Portfolio<span>Cayetano</span></a>
 
-                <label class=" nav__label">
+                <!-- <label class=" nav__label">
                     <input type="checkbox" class="nav__checkbox">
-                </label>
+                </label> -->
 
 
                 <ul class="nav__list">
@@ -75,7 +75,7 @@
                     <input type="color" id="colorPicker">
                 </label>
         
-                
+                <i class="bx bx-menu" id="menu-icon"></i>
 
             </nav>
         </section>
@@ -130,7 +130,7 @@
     
     
             <figure class="home-img">
-                <img src="imagenportfolio.jpg" alt="">
+                <img src="./assets/profile.png" alt="">
             </figure>
     
         </section>
@@ -165,34 +165,32 @@
         <!-- section services starts here -->
     
     
-        <section class="services container" id="services">
+        <section class="services" id="services">
     
             <h2 class="heading">Our <span>Services</span></h2>
     
             <div class="services-container">
     
-                <div class="services-box">
-                    <i class='bx bxs-devices'></i>
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
-                        necessitatibus</p>
-    
+                <div class="services-box service-info">
+                        <i class='bx bxs-devices'></i>
+                        <h3>Web Development</h3>
+                        <p>I develop dynamic and functional websites and web applications, with experience in HTML, CSS, JavaScript, Oracle and frameworks. I create adapted solutions for each project, focusing on design, performance, and usability.</p>
                 </div>
     
-                <div class="services-box">
-                    <i class='bx bx-code'></i>
-                    <h3>Frontend Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
-                        necessitatibus</p>
-    
+                <div class="services-box service-info">
+                    
+                        <i class='bx bx-code'></i>
+                        <h3>Frontend Development</h3>
+                        <p>I design and develop responsive, user-friendly websites, with expertise in HTML, CSS, and JavaScript frameworks. I focus on creating visually appealing and performant front-end solutions adapted to each project.</p>
+                    
                 </div>
     
-                <div class="services-box">
-                    <i class='bx bx-code-curly'></i>
-                    <h3>Backend Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptatem. Eaque,
-                        necessitatibus</p>
-    
+                <div class="services-box service-info">
+                    
+                        <i class='bx bx-code-curly'></i>
+                        <h3>Backend Development</h3>
+                        <p>I develop robust and efficient back-end solutions, with experience in server-side programming, databases, and API integration. I focus on building secure, scalable, and high-performance applications tailored to project needs.</p>
+                    
                 </div>
     
     
@@ -251,6 +249,79 @@
             </div>
     
         </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="">
+                <div class="input-group">
+
+                    <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Number">
+                        <input type="text"" placeholder="Subject">
+                    </div>
+                    
+                </div>
+
+                <div class="input-group2">
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+
+                </div>
+
+            </form>
+
+        </section>
+
+        <footer class="footer">
+            <section class="social-icons" >
+    
+                <a href="https://github.com/cayerrs">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="#">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+
+                <a href="#">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="#">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+
+            </section>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                &copy; Cayetano Rincón | All Rights Reserved
+            </p>
+
+        </footer>
+
 </main>     
 
         <script src="script.js"></script>
